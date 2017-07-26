@@ -4,7 +4,7 @@ import xml.etree.ElementTree as et
 class PopGISUtil:
 
     domain = "popgis.spc.int/GC_tjs.php"
-    countries = ["Fiji", "Vanuatu", "Solomons", "Tuvalu"]
+    countries = ["Fiji", "Vanuatu", "Solomons"]
 
     data_layers = []
     data_layers.append("solomons/constituency/cid_3857.shp")

@@ -39,10 +39,10 @@ class PopGISDialog(QtGui.QDialog, FORM_CLASS):
 
     #debug
     def debug(self, text):
-        QMessageBox.about(self, "Debug", text)
+        QMessageBox.about(self, "PopGIS Debug", text)
 
     def error(self, text):
-        QMessageBox.critical(self, "Warning", text)
+        QMessageBox.critical(self, "PopGIS Warning", text)
 
     def fullreset(self):
         self.frameworkComboBox.clear()

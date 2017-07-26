@@ -204,10 +204,6 @@ class PopGIS:
             # substitute with your code.
             pass
 
-    def apply1(self):
-        self.dlg.debug("Yay!")
-
-
 
     def apply(self):
         #validation of comboboxes
