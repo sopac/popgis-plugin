@@ -1,0 +1,146 @@
+import urllib2
+import xml.etree.ElementTree as et
+
+class PopGISUtil:
+
+    domain = "popgis.spc.int/GC_tjs.php"
+    countries = ["Fiji", "Vanuatu", "Solomons", "Tuvalu"]
+
+    data_layers = []
+    data_layers.append("solomons/constituency/cid_3857.shp")
+    data_layers.append("solomons/ward/wid_3857.shp")
+    data_layers.append("solomons/province/pid_3857.shp")
+    data_layers.append("solomons/enumeration_area/eaid_3857.shp")
+    data_layers.append("tuvalu/island/buffer15_32760_geoclip.shp")
+    data_layers.append("tuvalu/island/isl_bkg_32760_geoclip.shp")
+    data_layers.append("tuvalu/split/frame 32760 tuvalu.shp")
+    data_layers.append("tuvalu/split/iid2_unscaled_xy.shp")
+    data_layers.append("tuvalu/split/eaid2_unscaled_xy.shp")
+    data_layers.append("tuvalu/split/vid2_unscaled_xy.shp")
+    data_layers.append("tuvalu/village/vil_tuv_32760.shp")
+    data_layers.append("tuvalu/enumeration_area/eas_32760_geoclip.shp")
+    data_layers.append("fiji/localities/Fiji_localities_32760.shp")
+    data_layers.append("fiji/tikina/tid32760_geoclip.shp")
+    data_layers.append("fiji/province/pid32760_geoclip.shp")
+    data_layers.append("fiji/enumeration_area/eas32760_geoclip.shp")
+    data_layers.append("vanuatu/school/School_Loc_Van_3857.shp")
+    data_layers.append("vanuatu/island/IID_3857_10_2015.shp")
+    data_layers.append("vanuatu/province/PID_3857_10_2015.shp")
+    data_layers.append("vanuatu/enumeration_area/EAID99_3857_10_2015.shp")
+    data_layers.append("vanuatu/area_council/ACID_3857_10_2015.shp")
+    data_layers.append("vanuatu/household_gps_points/GPSpoints_3857.shp")
+
+    frameworks = {}
+    datasets = {}
+    data = {}
+    values = {}
+
+    #describeframeworks
+    def get_frameworks(self, country):
+        res = {}
+        xml = urllib2.urlopen('http://' + country.lower() + '.' + self.domain + '?SERVICE=TJS&REQUEST=DescribeFrameworks&AcceptVersions=1.0.0', timeout = 10).read()
+        root = et.XML(xml)
+        for child in root:
+            title = ""
+            url = ""
+            for c in child:
+                if c.tag.endswith("Title"):
+                    #print c.text
+                    title = c.text
+                if c.tag.endswith("DescribeDatasetsRequest"):
+                    #print c.attrib.values()[0]
+                    url = c.attrib.values()[0]
+            if title is not "" and url is not "":
+                res[title] = url
+        self.frameworks = res
+        return res
+
+
+    #describedatasets
+    def get_datasets(self, framework):
+        res = {}
+        url = self.frameworks.get(framework)
+        xml = urllib2.urlopen(url, timeout = 10).read()
+        root = et.XML(xml)
+        for child in root:
+            for c1 in child:
+                title = ""
+                url = ""
+                for c in c1:
+                    if c.tag.endswith("Title"):
+                        # print c.text
+                        title = c.text
+                    if c.tag.endswith("DescribeDataRequest"):
+                        # print c.attrib.values()[0]
+                        url = c.attrib.values()[0]
+                if title is not "" and url is not "":
+                    res[title] = url
+        self.datasets = res
+        return res
+
+    #describedata
+    def get_data(self, dataset):
+        res = {}
+        url = self.datasets.get(dataset)
+        xml = urllib2.urlopen(url, timeout = 10).read()
+        root = et.XML(xml)
+        title = ""
+        url = ""
+
+        for c0 in root:
+            for c1 in c0:
+                for c2 in c1:
+                    for c3 in c2:
+                        for c4 in c3:
+                            for c in c4:
+                                #print c.tag
+                                if c.tag.endswith("Title"):
+                                    #print c.text
+                                    title = c.text
+                                if c.tag.endswith("GetDataRequest"):
+                                    # print c.attrib.values()[0]
+                                    url = c.attrib.values()[0]
+                            if title is not "" and url is not "":
+                                res[title] = url
+        self.data = res
+        return res
+
+
+    #getdata
+    def get_values(self, data):
+        res = {}
+        url = self.data.get(data)
+        #print url
+        xml = urllib2.urlopen(url, timeout = 10).read()
+        root = et.XML(xml)
+        k = ""
+        v = ""
+
+        for c0 in root:
+            for c1 in c0:
+                for c2 in c1:
+                    for c3 in c2:
+                        for c in c3:
+                            #print c.tag
+                            if c.tag == "K":
+                                #print c.text
+                                k = c.text
+                            if c.tag == "V":
+                                #print c.text
+                                v = c.text
+                        if k is not "" and v is not "":
+                            res[k] = v
+
+        self.values = res
+        return res
+
+
+#test
+test = False
+if test:
+    x = PopGISUtil()
+    print x.get_frameworks(x.countries[1])
+    print x.get_datasets("Province")
+    print x.get_data("H1. Type of living quarters")
+    print x.get_values("H1. Type of living quarters - Proportion of HH living in one family house attached to one or more houses - 2009 Census")
+

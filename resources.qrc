@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/plugins/PopGIS">
+    <file>spc.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>
