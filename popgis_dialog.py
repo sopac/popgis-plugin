@@ -39,7 +39,7 @@ class PopGISDialog(QtGui.QDialog, FORM_CLASS):
 
     #debug
     def debug(self, text):
-        QMessageBox.about(self, "PopGIS Debug", text)
+        QMessageBox.about(self, "PopGIS Message", text)
 
     def error(self, text):
         QMessageBox.critical(self, "PopGIS Warning", text)
@@ -84,7 +84,11 @@ class PopGISDialog(QtGui.QDialog, FORM_CLASS):
         self.datasetsComboBox.currentIndexChanged.connect(self.datasetsChange)
 
         self.buttons.button(QDialogButtonBox.Reset).clicked.connect(self.fullreset)
+        self.buttons.button(QDialogButtonBox.Help).clicked.connect(self.help)
         #self.buttons.button(QDialogButtonBox.Apply).clicked.connect(self.apply)
+
+    def help(self):
+        self.debug("OGC Table Joining Service Integration with SPC PopGIS Instances.")
 
     def countryChange(self, i):
         country = self.countryComboBox.itemText(i)

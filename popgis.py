@@ -166,7 +166,7 @@ class PopGIS:
 
         # apply callback
         self.dlg.buttons.button(QDialogButtonBox.Apply).clicked.connect(self.apply)
-        self.dlg.buttons.button(QDialogButtonBox.Help).clicked.connect(self.help)
+
 
         return action
 
@@ -268,7 +268,11 @@ class PopGIS:
                     #projection
                     crs = QgsCoordinateReferenceSystem(4326, QgsCoordinateReferenceSystem.EpsgCrsId)
                     if country == "Fiji":
-                        crs = QgsCoordinateReferenceSystem(3460, QgsCoordinateReferenceSystem.EpsgCrsId)
+                        crs = QgsCoordinateReferenceSystem(32760, QgsCoordinateReferenceSystem.EpsgCrsId)
+                    if country == "Vanuatu":
+                        crs = QgsCoordinateReferenceSystem(3857, QgsCoordinateReferenceSystem.EpsgCrsId)
+                    if country == "Solomons":
+                        crs = QgsCoordinateReferenceSystem(3857, QgsCoordinateReferenceSystem.EpsgCrsId)
                     self.iface.mapCanvas().mapRenderer().setDestinationCrs(crs)
                     self.iface.mapCanvas().setExtent(layer.extent())
 
@@ -301,13 +305,10 @@ class PopGIS:
                         #layer.triggerRepaint()
 
                     #finish
-                    self.dlg.debug("Map Generated.")
+                    self.dlg.debug("PopGIS Map Generated.")
 
 
 
 
 
-    def help(self):
-        layer = self.iface.addVectorLayer("/home/sachin/.qgis2/python/plugins/PopGIS/data/fiji/province/pid32760_geoclip.shp", "fiji", "ogr")
-        if not layer:
-            self.dlg.error("Data Not Available!")
+
