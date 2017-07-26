@@ -263,37 +263,49 @@ class PopGIS:
                         rid = feature[0]
                         val = float(dict[rid])
                         res = layer.changeAttributeValue(fid, layer.dataProvider().fieldNameIndex("value"), val)
-                        #self.dlg.debug(str(res) + " = " + rid + " : " + str(val) + " -> " + str(type(val)) + ", " + str(fid) + ", " + str(layer.dataProvider().fieldNameIndex("value")))
-                        layer.updateFeature(feature)
+                        if res is False:
+                            self.dlg.debug(str(res) + " = " + rid + " : " + str(val) + " -> " + str(type(val)) + ", " + str(fid) + ", " + str(layer.dataProvider().fieldNameIndex("value")))
+                        #layer.updateFeature(feature) //breaks
 
                     layer.commitChanges()
 
-                    #label
-                    palyr = QgsPalLayerSettings()
-                    palyr.readFromLayer(layer)
-                    palyr.enabled = True  # this works
-                    palyr.fieldName = 'value'  # this works
-                    palyr.fontSizeInMapUnits = False
-                    #palyr.textFont.setPointSize(6)  # results in 4 - seems to be integer only
-                    #palyr.textColor = QColor(0, 0, 0)  # this works
-                    palyr.writeToLayer(layer)
+                    #projection
+                    crs = QgsCoordinateReferenceSystem(4326, QgsCoordinateReferenceSystem.EpsgCrsId)
+                    if country == "Fiji":
+                        crs = QgsCoordinateReferenceSystem(3460, QgsCoordinateReferenceSystem.EpsgCrsId)
+                    self.iface.mapCanvas().mapRenderer().setDestinationCrs(crs)
+                    self.iface.mapCanvas().setExtent(layer.extent())
 
-                    #style
-                    renderer = QgsGraduatedSymbolRendererV2()
-                    renderer.setClassAttribute("value")
-                    renderer.setMode(QgsGraduatedSymbolRendererV2.EqualInterval)
-                    renderer.updateClasses(layer, QgsGraduatedSymbolRendererV2.EqualInterval, len(dict))
-                    style = QgsStyleV2().defaultStyle()
-                    defaultColorRampNames = style.colorRampNames()
-                    ramp = style.colorRamp(defaultColorRampNames[0])
+                    styling = True
+                    if styling:
+                        #label
+                        palyr = QgsPalLayerSettings()
+                        palyr.readFromLayer(layer)
+                        palyr.enabled = True  # this works
+                        palyr.fieldName = 'value'  # this works
+                        palyr.fontSizeInMapUnits = False
+                        #palyr.textFont.setPointSize(6)  # results in 4 - seems to be integer only
+                        #palyr.textColor = QColor(0, 0, 0)  # this works
+                        palyr.writeToLayer(layer)
 
-                    renderer.updateColorRamp(ramp)
-                    layer.setRendererV2(renderer)
-                    if self.iface.mapCanvas().isCachingEnabled():
-                        layer.setCacheImage(None)
-                    else:
-                        self.iface.mapCanvas().refresh()
-                    layer.triggerRepaint()
+                        #style
+                        renderer = QgsGraduatedSymbolRendererV2()
+                        renderer.setClassAttribute("value")
+                        renderer.setMode(QgsGraduatedSymbolRendererV2.EqualInterval)
+                        renderer.updateClasses(layer, QgsGraduatedSymbolRendererV2.EqualInterval, len(dict))
+                        style = QgsStyleV2().defaultStyle()
+                        defaultColorRampNames = style.colorRampNames()
+                        ramp = style.colorRamp(defaultColorRampNames[0])
+                        renderer.updateColorRamp(ramp)
+                        layer.setRendererV2(renderer)
+                        #if self.iface.mapCanvas().isCachingEnabled():
+                        #    layer.setCacheImage(None)
+                        #else:
+                        #    self.iface.mapCanvas().refresh()
+                        #layer.triggerRepaint()
+
+                    #finish
+                    self.dlg.debug("Map Generated.")
 
 
 
