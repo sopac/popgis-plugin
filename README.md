@@ -3,7 +3,7 @@
 ###### Installation
 Requirement: QGIS 2.18.x 
 
-1. Download the [lastest release](https://github.com/sopac/popgis-plugin/releases) and extract them to your QGIS plugins folder at `$HOME/.qgis2/python/plugins/`
+1. Download the [latest release](https://github.com/sopac/popgis-plugin/releases) and extract them to your QGIS plugins folder at `$HOME/.qgis2/python/plugins/`
 2. *Rename* the extracted folder to `PopGIS`.
 3. Launch QGIS and open menu Plugins -> Manage and Install Plugins.
 4. Enable *"SPC PopGIS"* plugin in the Plugins dialog.
