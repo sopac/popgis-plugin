@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3225e48-5ace-4dd9-8de8-eb037d2a4414" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fiji/province/pid32760_geoclip.dbf" afterPath="$PROJECT_DIR$/data/fiji/province/pid32760_geoclip.dbf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/fiji/tikina/tid32760_geoclip.dbf" afterPath="$PROJECT_DIR$/data/fiji/tikina/tid32760_geoclip.dbf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/solomons/province/pid_3857.dbf" afterPath="$PROJECT_DIR$/data/solomons/province/pid_3857.dbf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/solomons/ward/wid_3857.dbf" afterPath="$PROJECT_DIR$/data/solomons/ward/wid_3857.dbf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/vanuatu/enumeration_area/EAID99_3857_10_2015.dbf" afterPath="$PROJECT_DIR$/data/vanuatu/enumeration_area/EAID99_3857_10_2015.dbf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/vanuatu/province/PID_3857_10_2015.dbf" afterPath="$PROJECT_DIR$/data/vanuatu/province/PID_3857_10_2015.dbf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/vanuatu/school/School_Loc_Van_3857.dbf" afterPath="$PROJECT_DIR$/data/vanuatu/school/School_Loc_Van_3857.dbf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popgis.py" afterPath="$PROJECT_DIR$/popgis.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popgis_dialog.py" afterPath="$PROJECT_DIR$/popgis_dialog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popgis_dialog_base.ui" afterPath="$PROJECT_DIR$/popgis_dialog_base.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/popgisutil.py" afterPath="$PROJECT_DIR$/popgisutil.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +27,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popgis_dialog.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="popgis_dialog.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/popgis_dialog.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="485">
@@ -46,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popgisutil.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="popgisutil.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/popgisutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="24" />
+            <state relative-caret-position="1237">
+              <caret line="84" column="47" lean-forward="false" selection-start-line="84" selection-start-column="47" selection-end-line="84" selection-end-column="47" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -73,11 +64,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/popgisutil.py" />
         <option value="$PROJECT_DIR$/clean_data.py" />
         <option value="$PROJECT_DIR$/clean_data.sh" />
         <option value="$PROJECT_DIR$/popgis.py" />
         <option value="$PROJECT_DIR$/popgis_dialog.py" />
+        <option value="$PROJECT_DIR$/popgisutil.py" />
       </list>
     </option>
   </component>
@@ -483,16 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/popgisutil.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/popgis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -508,6 +489,16 @@
         <state relative-caret-position="485">
           <caret line="90" column="84" lean-forward="false" selection-start-line="90" selection-start-column="84" selection-end-line="90" selection-end-column="84" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popgisutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1237">
+          <caret line="84" column="47" lean-forward="false" selection-start-line="84" selection-start-column="47" selection-end-line="84" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
