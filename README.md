@@ -3,7 +3,7 @@
 ###### Installation
 Requirement: QGIS 2.18.x 
 
-1. Download the [last release](https://github.com/sopac/popgis-plugin/releases) and extract them to your QGIS plugins folder at `$HOME/.qgis2/python/plugins/`
+1. Download the [lastest release](https://github.com/sopac/popgis-plugin/releases) and extract them to your QGIS plugins folder at `$HOME/.qgis2/python/plugins/`
 2. *Rename* the extracted folder to `PopGIS`.
 3. Launch QGIS and open menu Plugins -> Manage and Install Plugins.
 4. Enable *"SPC PopGIS"* plugin in the Plugins dialog.
@@ -11,9 +11,9 @@ Requirement: QGIS 2.18.x
 6. Select Country, Framework, Datasets and Data before clicking the *Apply* button.
 
 ###### Reference
-http://www.opengeospatial.org/standards/tjs <http://www.opengeospatial.org/standards/tjs>
+http://www.opengeospatial.org/standards/tjs
 
-http://prism.spc.int/regional-data-and-tools/popgis2 <http://prism.spc.int/regional-data-and-tools/popgis2>
+http://prism.spc.int/regional-data-and-tools/popgis2
 
 ###### Issues
 File bugs and issues using GitHub Issues functionality on this repository.
