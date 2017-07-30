@@ -18,6 +18,13 @@ http://prism.spc.int/regional-data-and-tools/popgis2
 ###### Issues
 File bugs and issues using GitHub Issues functionality on this repository.
 
+###### Screenshots
+![Fiji Example](popgis_plugin_screen_2.png)
+
+![Vanuatu Example](popgis_plugin_screen_1.png)
+
+
+
 
 
 
