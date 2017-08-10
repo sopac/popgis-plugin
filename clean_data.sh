@@ -1,5 +1,251 @@
-#ogrinfo -sql "ALTER TABLE PID_3857_10_2015 DROP COLUMN value" data/vanuatu/province/PID_3857_10_2015.shp
-
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_IID_xy_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/island/KIR_IID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_VID_xy_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/village/KIR_VID_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE KIR_EA_xy_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/kiribati/enumeration_area/KIR_EA_xy_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Districts_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/district/Districts_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE Final_vill_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/wf/village/Final_vill_3857.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE SID DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/state/SID.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE HID 3857 Final DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/hamlet/HID 3857 Final.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
+ogrinfo -sql "ALTER TABLE EAID clean 3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/palau/enumeration_area/EAID clean 3857.shp
 ogrinfo -sql "ALTER TABLE cid_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/solomons/constituency/cid_3857.shp
 ogrinfo -sql "ALTER TABLE cid_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/solomons/constituency/cid_3857.shp
 ogrinfo -sql "ALTER TABLE cid_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/solomons/constituency/cid_3857.shp
@@ -124,6 +370,68 @@ ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_27" /home/sachin/.qgis2/py
 ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/solomons/enumeration_area/eaid_3857.shp
 ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/solomons/enumeration_area/eaid_3857.shp
 ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/solomons/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE aid_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/atoll/aid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
+ogrinfo -sql "ALTER TABLE eaid_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/rmi/enumeration_area/eaid_3857.shp
 ogrinfo -sql "ALTER TABLE buffer15_32760_geoclip DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/tuvalu/island/buffer15_32760_geoclip.shp
 ogrinfo -sql "ALTER TABLE buffer15_32760_geoclip DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/tuvalu/island/buffer15_32760_geoclip.shp
 ogrinfo -sql "ALTER TABLE buffer15_32760_geoclip DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/tuvalu/island/buffer15_32760_geoclip.shp
@@ -496,6 +804,409 @@ ogrinfo -sql "ALTER TABLE eas32760_geoclip DROP COLUMN value_27" /home/sachin/.q
 ogrinfo -sql "ALTER TABLE eas32760_geoclip DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/fiji/enumeration_area/eas32760_geoclip.shp
 ogrinfo -sql "ALTER TABLE eas32760_geoclip DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/fiji/enumeration_area/eas32760_geoclip.shp
 ogrinfo -sql "ALTER TABLE eas32760_geoclip DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/fiji/enumeration_area/eas32760_geoclip.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE EAs_3857_XY_tocon DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Enumeration Area/EAs_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE vid_3857_XY_tocon DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Village/vid_3857_XY_tocon.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE iid_3857_XY DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/cnmi/Island/iid_3857_XY.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_IID_clean_names_xy_buff60_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/island/CK_IID_clean_names_xy_buff60_3857.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_DS_clean_3857_combine_names_xy DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_GID_buff100_3857_xy2 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE CK_EA_clean_3857_name_xy DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_ea_3857_xy DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_ea_3857_xy.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE Nau_did_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/nauru/Nau_did_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE mid_names_xy_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/mid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE split_mid_nodrawn_frame DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/split_mid_nodrawn_frame.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE edid_names_xy_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/edid_names_xy_3857.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
+ogrinfo -sql "ALTER TABLE sid_buffer100km_xy DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/fsm/sid_buffer100km_xy.shp
 ogrinfo -sql "ALTER TABLE School_Loc_Van_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/vanuatu/school/School_Loc_Van_3857.shp
 ogrinfo -sql "ALTER TABLE School_Loc_Van_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/vanuatu/school/School_Loc_Van_3857.shp
 ogrinfo -sql "ALTER TABLE School_Loc_Van_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/vanuatu/school/School_Loc_Van_3857.shp
@@ -682,3 +1393,127 @@ ogrinfo -sql "ALTER TABLE GPSpoints_3857 DROP COLUMN value_27" /home/sachin/.qgi
 ogrinfo -sql "ALTER TABLE GPSpoints_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/vanuatu/household_gps_points/GPSpoints_3857.shp
 ogrinfo -sql "ALTER TABLE GPSpoints_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/vanuatu/household_gps_points/GPSpoints_3857.shp
 ogrinfo -sql "ALTER TABLE GPSpoints_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/vanuatu/household_gps_points/GPSpoints_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE TON_dv_3857 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/division/TON_dv_3857.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_ds_xy_3857_1_9_2015 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/district/ton_ds_xy_3857_1_9_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_blk_xy_3857_07_09_2015 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/census_block/ton_blk_xy_3857_07_09_2015.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_1" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_2" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_3" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_4" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_5" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_6" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_7" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_8" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_9" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_10" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_11" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_12" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_13" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_14" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_15" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_16" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_17" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_18" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_19" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_20" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_21" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_22" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_23" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_24" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_25" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_26" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_27" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_28" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_29" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
+ogrinfo -sql "ALTER TABLE ton_vid_xy_3857_5_4_2016 DROP COLUMN value_30" /home/sachin/.qgis2/python/plugins/PopGIS/data/tonga/village/ton_vid_xy_3857_5_4_2016.shp
