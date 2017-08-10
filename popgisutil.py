@@ -65,7 +65,8 @@ class PopGISUtil:
     #describeframeworks
     def get_frameworks(self, country):
         res = {}
-        xml = urllib2.urlopen('http://' + country.lower() + '.' + self.domain + '?SERVICE=TJS&REQUEST=DescribeFrameworks&AcceptVersions=1.0.0', timeout = 100).read()
+        request = urllib2.Request('http://' + country.lower() + '.' + self.domain + '?SERVICE=TJS&REQUEST=DescribeFrameworks&AcceptVersions=1.0.0',headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib2.urlopen(request, timeout = 100).read()
         root = et.XML(xml)
         for child in root:
             title = ""
@@ -87,7 +88,8 @@ class PopGISUtil:
     def get_datasets(self, framework):
         res = {}
         url = self.frameworks.get(framework)
-        xml = urllib2.urlopen(url, timeout = 100).read()
+        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib2.urlopen(request, timeout = 100).read()
         root = et.XML(xml)
         for child in root:
             for c1 in child:
@@ -109,7 +111,8 @@ class PopGISUtil:
     def get_data(self, dataset):
         res = {}
         url = self.datasets.get(dataset)
-        xml = urllib2.urlopen(url, timeout = 100).read()
+        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib2.urlopen(request, timeout = 100).read()
         root = et.XML(xml)
         title = ""
         url = ""
@@ -137,8 +140,8 @@ class PopGISUtil:
     def get_values(self, data):
         res = {}
         url = self.data.get(data)
-        #print url
-        xml = urllib2.urlopen(url, timeout = 100).read()
+        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib2.urlopen(request, timeout = 100).read()
         root = et.XML(xml)
         k = ""
         v = ""
