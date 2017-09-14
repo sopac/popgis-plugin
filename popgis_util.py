@@ -66,7 +66,7 @@ class PopGISUtil:
     def get_frameworks(self, country):
         res = {}
         request = urllib2.Request('http://' + country.lower() + '.' + self.domain + '?SERVICE=TJS&REQUEST=DescribeFrameworks&AcceptVersions=1.0.0',headers={'User-Agent': 'Mozilla/5.0'})
-        xml = urllib2.urlopen(request, timeout = 100).read()
+        xml = urllib2.urlopen(request, timeout = 1000).read()
         root = et.XML(xml)
         for child in root:
             title = ""
@@ -89,7 +89,7 @@ class PopGISUtil:
         res = {}
         url = self.frameworks.get(framework)
         request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        xml = urllib2.urlopen(request, timeout = 100).read()
+        xml = urllib2.urlopen(request, timeout = 1000).read()
         root = et.XML(xml)
         for child in root:
             for c1 in child:
@@ -112,7 +112,7 @@ class PopGISUtil:
         res = {}
         url = self.datasets.get(dataset)
         request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        xml = urllib2.urlopen(request, timeout = 100).read()
+        xml = urllib2.urlopen(request, timeout = 1000).read()
         root = et.XML(xml)
         title = ""
         url = ""
@@ -141,7 +141,7 @@ class PopGISUtil:
         res = {}
         url = self.data.get(data)
         request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        xml = urllib2.urlopen(request, timeout = 100).read()
+        xml = urllib2.urlopen(request, timeout = 2000).read()
         root = et.XML(xml)
         k = ""
         v = ""
@@ -169,8 +169,8 @@ class PopGISUtil:
 test = False
 if test:
     x = PopGISUtil()
-    print x.get_frameworks(x.countries[1])
-    print x.get_datasets("Province")
-    print x.get_data("H1. Type of living quarters")
-    print x.get_values("H1. Type of living quarters - Proportion of HH living in one family house attached to one or more houses - 2009 Census")
+    print x.get_frameworks("Vanuatu").keys()
+    print x.get_datasets("Province").keys()
+    print x.get_data("P11. Religion of total population").keys()
+    #print x.get_values("H1. Type of living quarters - Proportion of HH living in one family house attached to one or more houses - 2009 Census")
 

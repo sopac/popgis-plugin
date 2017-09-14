@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-import popgisutil
+import popgis_util
 """
 /***************************************************************************
  PopGISDialog
@@ -35,7 +35,7 @@ FORM_CLASS, _ = uic.loadUiType(os.path.join(
 
 class PopGISDialog(QtGui.QDialog, FORM_CLASS):
 
-    popgis = popgisutil.PopGISUtil()
+    popgis = popgis_util.PopGISUtil()
 
     #debug
     def debug(self, text):
