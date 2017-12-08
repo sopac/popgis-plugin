@@ -4,7 +4,7 @@ import xml.etree.ElementTree as et
 class PopGISUtil:
 
     domain = "popgis.spc.int/GC_tjs.php"
-    countries = ["Fiji", "Vanuatu", "Solomons"]
+    countries = ["Cooks","Fiji","FSM","Kiribati","Nauru","Niue","Palau","RMI","Solomons","Tonga","Tuvalu","Vanuatu","WF"]
 
     data_layers = []
     data_layers.append("solomons/constituency/cid_3857.shp")
@@ -28,8 +28,35 @@ class PopGISUtil:
     data_layers.append("vanuatu/province/PID_3857_10_2015.shp")
     data_layers.append("vanuatu/enumeration_area/EAID99_3857_10_2015.shp")
     data_layers.append("vanuatu/area_council/ACID_3857_10_2015.shp")
-    data_layers.append("vanuatu/household_gps_points/GPSpoints_3857.shp")
-
+    data_layers.append("vanuatu/household_gps_points/GPSpoints_3857.shp") 
+    data_layers.append("cooks/enumeration_area/CK_EA_clean_3857_name_xy.shp")
+    data_layers.append("cooks/census_district/CK_DS_clean_3857_combine_names_xy.shp")
+    data_layers.append("cooks/island/CK_IID_clean_names_xy_buff60_3857.shp")
+    data_layers.append("cooks/groups_of_islands/CK_GID_buff100_3857_xy2.shp")
+    data_layers.append("wf/village/Final_vill_3857.shp")
+    data_layers.append("wf/district/Districts_3857.shp")  
+    data_layers.append("fsm/edid_names_xy_3857.shp")
+    data_layers.append("fsm/mid_names_xy_3857.shp")
+    data_layers.append("fsm/sid_buffer100km_xy.shp")
+    data_layers.append("fsm/split_mid_nodrawn_frame.shp")
+    data_layers.append("kiribati/enumeration_area/KIR_EA_xy_3857.shp")
+    data_layers.append("kiribati/village/KIR_VID_xy_3857.shp")
+    data_layers.append("kiribati/island/KIR_IID_xy_3857.shp")
+    data_layers.append("nauru/Nau_ea_3857_xy.shp")
+    data_layers.append("nauru/Nau_did_3857.shp")
+    data_layers.append("palau/EAID clean 3857.shp")
+    data_layers.append("palau/HID 3857 Final.shp")
+    data_layers.append("palau/SID.shp")
+    data_layers.append("tonga/census_block/blk_3857_16_10_17.shp")
+    data_layers.append("tonga/district/ton_ds_xy_3857_1_9_2015.shp")
+    data_layers.append("tonga/division/TON_dv_3857.shp")
+    data_layers.append("tonga/village/ton_vid_xy_3857_5_4_2016.shp")
+    data_layers.append("palau/enumeration_area/EAID clean 3857.shp")
+    data_layers.append("palau/hamlet/HID 3857 Final.shp")
+    data_layers.append("palau/state/SID.shp")
+    data_layers.append("rmi/atoll/aid_3857.shp")
+    data_layers.append("rmi/enumeration_area/eaid_3857.shp")
+    
     frameworks = {}
     datasets = {}
     data = {}
@@ -38,7 +65,8 @@ class PopGISUtil:
     #describeframeworks
     def get_frameworks(self, country):
         res = {}
-        xml = urllib2.urlopen('http://' + country.lower() + '.' + self.domain + '?SERVICE=TJS&REQUEST=DescribeFrameworks&AcceptVersions=1.0.0', timeout = 100).read()
+        request = urllib2.Request('http://' + country.lower() + '.' + self.domain + '?SERVICE=TJS&REQUEST=DescribeFrameworks&AcceptVersions=1.0.0',headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib2.urlopen(request, timeout = 100).read()
         root = et.XML(xml)
         for child in root:
             title = ""
@@ -60,7 +88,8 @@ class PopGISUtil:
     def get_datasets(self, framework):
         res = {}
         url = self.frameworks.get(framework)
-        xml = urllib2.urlopen(url, timeout = 100).read()
+        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib2.urlopen(request, timeout = 100).read()
         root = et.XML(xml)
         for child in root:
             for c1 in child:
@@ -82,7 +111,8 @@ class PopGISUtil:
     def get_data(self, dataset):
         res = {}
         url = self.datasets.get(dataset)
-        xml = urllib2.urlopen(url, timeout = 100).read()
+        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib2.urlopen(request, timeout = 100).read()
         root = et.XML(xml)
         title = ""
         url = ""
@@ -110,8 +140,8 @@ class PopGISUtil:
     def get_values(self, data):
         res = {}
         url = self.data.get(data)
-        #print url
-        xml = urllib2.urlopen(url, timeout = 100).read()
+        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib2.urlopen(request, timeout = 100).read()
         root = et.XML(xml)
         k = ""
         v = ""
