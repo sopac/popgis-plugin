@@ -1,4 +1,7 @@
+from __future__ import print_function
 
+from builtins import str
+from builtins import range
 import os, sys
 
 for root, subFolders, files in os.walk(os.getcwd()):

@@ -1,9 +1,11 @@
+from __future__ import print_function
+from __future__ import absolute_import
 #Author: Sachindra Singh <sachindras@spc.int>
 #Date: 19/08/2017
 #ORM - Object Relational Mapper for OGC Table Joining Service Instances
 
 from pony.orm import *
-import popgis_util
+from . import popgis_util
 import time
 
 db = Database()
@@ -44,25 +46,27 @@ tjs = popgis_util.PopGISUtil()
 with db_session:
     #countries
     for co in tjs.countries:
-        print co
+        # fix_print_with_import
+        print(co)
         c1 = Country(name=co)
         commit()
         #frameworks
-        for fr in tjs.get_frameworks(co).keys():
+        for fr in list(tjs.get_frameworks(co).keys()):
             f1 = Framework(country=c1, title=fr)
             commit()
             #time.sleep(10)
             #datasets
-            for ds in tjs.get_datasets(fr).keys():
+            for ds in list(tjs.get_datasets(fr).keys()):
                 ds1 = DataSet(framework=f1, title=ds)
                 commit()
                 #time.sleep(1)
                 #data
-                for da1 in tjs.get_data(ds).keys():
+                for da1 in list(tjs.get_data(ds).keys()):
                     if da1 is not None:
                         d1 = Data(dataset=ds1, title=da1)
                         try:
-                            print co + ":" + fr + " - " + da1
+                            # fix_print_with_import
+                            print(co + ":" + fr + " - " + da1)
                         except:
                             pass
                         commit()
@@ -70,18 +74,20 @@ with db_session:
                         #values
                         try:
                             values = tjs.get_values(da1) #xml.etree.ElementTree.ParseError: not well-formed (invalid token): line 1, column 1
-                            for val in values.keys():
+                            for val in list(values.keys()):
                                 t = values[val]
                                 if t is None:
                                     t = "0"
                                 v1 = Values(data=d1, k=val, v=t)
                                 commit()
                         except:
-                            print "ERROR getting values for : " + da1
+                            # fix_print_with_import
+                            print("ERROR getting values for : " + da1)
                             pass
 
 
-print "DTO Complete."
+# fix_print_with_import
+print("DTO Complete.")
 
 
 

@@ -20,22 +20,28 @@
  *                                                                         *
  ***************************************************************************/
 """
-from PyQt4.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
-from PyQt4.QtGui import QAction, QIcon
-from PyQt4.QtGui import *
-from PyQt4.QtCore import QVariant
+from __future__ import absolute_import
+from builtins import str
+from builtins import object
+from qgis.PyQt.QtCore import QSettings, QTranslator, qVersion, QCoreApplication
+from qgis.PyQt.QtWidgets import QAction
+from qgis.PyQt.QtGui import QIcon
+from qgis.PyQt import QtGui, uic
+from qgis.PyQt.QtWidgets import *
+from qgis.PyQt import *
+from qgis.PyQt.QtCore import QVariant
 from qgis.core import *
 import qgis.utils
 from decimal import Decimal
 
 # Initialize Qt resources from file resources.py
-import resources
+from . import resources
 # Import the code for the dialog
-from popgis_dialog import PopGISDialog
+from .popgis_dialog import PopGISDialog
 import os.path
 
 
-class PopGIS:
+class PopGIS(object):
     """QGIS Plugin Implementation."""
 
     def __init__(self, iface):
@@ -64,15 +70,12 @@ class PopGIS:
             if qVersion() > '4.3.3':
                 QCoreApplication.installTranslator(self.translator)
 
-
         # Declare instance attributes
         self.actions = []
         self.menu = self.tr(u'&SPC PopGIS')
         # TODO: We are going to let the user set this up in a future iteration
         self.toolbar = self.iface.addToolBar(u'PopGIS')
         self.toolbar.setObjectName(u'PopGIS')
-
-
 
     # noinspection PyMethodMayBeStatic
     def tr(self, message):
@@ -89,18 +92,17 @@ class PopGIS:
         # noinspection PyTypeChecker,PyArgumentList,PyCallByClass
         return QCoreApplication.translate('PopGIS', message)
 
-
     def add_action(
-        self,
-        icon_path,
-        text,
-        callback,
-        enabled_flag=True,
-        add_to_menu=True,
-        add_to_toolbar=True,
-        status_tip=None,
-        whats_this=None,
-        parent=None):
+            self,
+            icon_path,
+            text,
+            callback,
+            enabled_flag=True,
+            add_to_menu=True,
+            add_to_toolbar=True,
+            status_tip=None,
+            whats_this=None,
+            parent=None):
         """Add a toolbar icon to the toolbar.
 
         :param icon_path: Path to the icon for this action. Can be a resource
@@ -167,7 +169,6 @@ class PopGIS:
         # apply callback
         self.dlg.buttons.button(QDialogButtonBox.Apply).clicked.connect(self.apply)
 
-
         return action
 
     def initGui(self):
@@ -180,7 +181,6 @@ class PopGIS:
             callback=self.run,
             parent=self.iface.mainWindow())
 
-
     def unload(self):
         """Removes the plugin menu item and icon from QGIS GUI."""
         for action in self.actions:
@@ -190,7 +190,6 @@ class PopGIS:
             self.iface.removeToolBarIcon(action)
         # remove the toolbar
         del self.toolbar
-
 
     def run(self):
         """Run method that performs all the real work"""
@@ -204,9 +203,8 @@ class PopGIS:
             # substitute with your code.
             pass
 
-
     def apply(self):
-        #validation of comboboxes
+        # validation of comboboxes
         valid = True
         if self.dlg.countryComboBox.currentIndex() == 0: valid = False
         if self.dlg.frameworkComboBox.currentIndex() == 0: valid = False
@@ -215,10 +213,10 @@ class PopGIS:
         if not valid:
             self.dlg.error("Select All Variables Before Generating Map Data!")
 
-        #rename data/country folder to frameworks eg: province, enumaration_area etc
-        #load data/country/framework layer into workshop (no reload, reduplication)
+        # rename data/country folder to frameworks eg: province, enumaration_area etc
+        # load data/country/framework layer into workshop (no reload, reduplication)
         if valid:
-            #self.debug("Processing...")
+            # self.debug("Processing...")
             country = self.dlg.countryComboBox.itemText(self.dlg.countryComboBox.currentIndex())
             framework = self.dlg.frameworkComboBox.itemText(self.dlg.frameworkComboBox.currentIndex())
             datasets = self.dlg.datasetsComboBox.itemText(self.dlg.datasetsComboBox.currentIndex())
@@ -231,27 +229,29 @@ class PopGIS:
             for dl in self.dlg.popgis.data_layers:
                 if dl.startswith(country.lower() + "/" + f.lower().replace(" ", "_")):
                     path = os.path.dirname(os.path.abspath(__file__)) + "/data/" + dl
-                    #self.dlg.debug(path)
+                    # self.dlg.debug(path)
                     layer = self.iface.addVectorLayer(path, country + "_" + framework.replace(" ", "_"), "ogr")
-                    layer.setLayerName(country + "_" + framework.replace(" ", "_") + "_" + data.replace(".", "").replace(" - ", "_").replace(" ", "_"))
+
+                    layer.setName(country + "_" + framework.replace(" ", "_") + "_" + data.replace(".", "").replace(" - ", "_").replace(" ", "_"))
+
+
                     if not layer:
                         self.dlg.error("Data Not Available!")
 
-                    #self.dlg.hide()
+                    # self.dlg.hide()
 
                     # get_values (k,v) and overlay/join with loaded layer
                     # dynamic styling - naming, incremental classification
                     dict = self.dlg.popgis.get_values(data)
-                    #self.dlg.debug(str(dict))
+                    # self.dlg.debug(str(dict))
 
-                    #add value attribute if doesn't exist
+                    # add value attribute if doesn't exist
                     if layer.dataProvider().fieldNameIndex("value") == -1:
                         res = layer.dataProvider().addAttributes([QgsField("value", QVariant.Double)])
                         layer.updateFields()
 
-
-                    index_attr = layer.pendingFields()[0].name()
-                    #self.dlg.debug(str(index_attr))
+                    index_attr = layer.fields()[0].name()
+                    # self.dlg.debug(str(index_attr))
                     layer.startEditing()
 
                     for feature in layer.getFeatures():
@@ -260,12 +260,14 @@ class PopGIS:
                         val = float(dict[rid])
                         res = layer.changeAttributeValue(fid, layer.dataProvider().fieldNameIndex("value"), val)
                         if res is False:
-                            self.dlg.debug(str(res) + " = " + rid + " : " + str(val) + " -> " + str(type(val)) + ", " + str(fid) + ", " + str(layer.dataProvider().fieldNameIndex("value")))
-                        #layer.updateFeature(feature) //breaks
+                            self.dlg.debug(
+                                str(res) + " = " + rid + " : " + str(val) + " -> " + str(type(val)) + ", " + str(
+                                    fid) + ", " + str(layer.dataProvider().fieldNameIndex("value")))
+                        # layer.updateFeature(feature) //breaks
 
                     layer.commitChanges()
 
-                    #projection
+                    # projection
                     crs = QgsCoordinateReferenceSystem(4326, QgsCoordinateReferenceSystem.EpsgCrsId)
                     if country == "Fiji":
                         crs = QgsCoordinateReferenceSystem(32760, QgsCoordinateReferenceSystem.EpsgCrsId)
@@ -273,42 +275,43 @@ class PopGIS:
                         crs = QgsCoordinateReferenceSystem(3857, QgsCoordinateReferenceSystem.EpsgCrsId)
                     if country == "Solomons":
                         crs = QgsCoordinateReferenceSystem(3857, QgsCoordinateReferenceSystem.EpsgCrsId)
-                    self.iface.mapCanvas().mapRenderer().setDestinationCrs(crs)
-                    self.iface.mapCanvas().setExtent(layer.extent())
+                    # self.iface.mapCanvas().mapRenderer().setDestinationCrs(crs)
+                    qgis.utils.iface.mapCanvas().mapSettings().destinationCrs = crs
 
                     styling = True
                     if styling:
-                        #label
+                        # label
                         palyr = QgsPalLayerSettings()
-                        palyr.readFromLayer(layer)
+                        # palyr.readFromLayer(layer)
                         palyr.enabled = True  # this works
+                        palyr.drawLabels = True
                         palyr.fieldName = 'value'  # this works
-                        palyr.fontSizeInMapUnits = False
-                        #palyr.textFont.setPointSize(6)  # results in 4 - seems to be integer only
-                        #palyr.textColor = QColor(0, 0, 0)  # this works
-                        palyr.writeToLayer(layer)
+                        # palyr.fontSizeInMapUnits = False
+                        # palyr.textFont.setPointSize(6)  # results in 4 - seems to be integer only
+                        # palyr.textColor = QColor(0, 0, 0)  # this works
+                        # palyr.writeToLayer(layer)
+                        layer.setLabeling(QgsVectorLayerSimpleLabeling(palyr))
 
-                        #style
-                        renderer = QgsGraduatedSymbolRendererV2()
+                        # style
+                        renderer = QgsGraduatedSymbolRenderer()
                         renderer.setClassAttribute("value")
-                        renderer.setMode(QgsGraduatedSymbolRendererV2.EqualInterval)
-                        renderer.updateClasses(layer, QgsGraduatedSymbolRendererV2.EqualInterval, len(dict))
-                        style = QgsStyleV2().defaultStyle()
+                        renderer.setMode(QgsGraduatedSymbolRenderer.EqualInterval)
+                        renderer.updateClasses(layer, QgsGraduatedSymbolRenderer.EqualInterval, len(dict))
+                        style = QgsStyle().defaultStyle()
                         defaultColorRampNames = style.colorRampNames()
                         ramp = style.colorRamp(defaultColorRampNames[0])
                         renderer.updateColorRamp(ramp)
-                        layer.setRendererV2(renderer)
-                        #if self.iface.mapCanvas().isCachingEnabled():
+                        layer.setRenderer(renderer)
+                        # if self.iface.mapCanvas().isCachingEnabled():
                         #    layer.setCacheImage(None)
-                        #else:
+                        # else:
                         #    self.iface.mapCanvas().refresh()
-                        #layer.triggerRepaint()
+                        # layer.triggerRepaint()
+                        layer.triggerRepaint()
 
-                    #finish
+                    # finish
+                    self.iface.mapCanvas().setExtent(layer.extent())
+                    self.iface.mapCanvas().zoomToSelected(layer)
+                    self.iface.mapCanvas().zoomToSelected(layer)
+
                     self.dlg.debug("PopGIS Map Generated.")
-
-
-
-
-
-

@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-import popgis_util
+from __future__ import absolute_import
+# -*- coding: utf-8 -*-
+from . import popgis_util
 """
 /***************************************************************************
  PopGISDialog
@@ -24,16 +26,16 @@ import popgis_util
 
 import os
 
-from PyQt4 import QtGui, uic
-from PyQt4.QtGui import *
-from PyQt4.QtCore import *
+from qgis.PyQt import QtGui, uic
+from qgis.PyQt.QtWidgets import *
+from qgis.PyQt import *
 
 FORM_CLASS, _ = uic.loadUiType(os.path.join(
     os.path.dirname(__file__), 'popgis_dialog_base.ui'))
 
-#pyrcc4 -o resources.py resources.qrc
+#pyrcc5 -o resources.py resources.qrc
 
-class PopGISDialog(QtGui.QDialog, FORM_CLASS):
+class PopGISDialog(QDialog, FORM_CLASS):
 
     popgis = popgis_util.PopGISUtil()
 

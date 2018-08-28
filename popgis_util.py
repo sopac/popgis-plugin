@@ -1,7 +1,11 @@
-import urllib2
+from __future__ import print_function
+from future import standard_library
+standard_library.install_aliases()
+from builtins import object
+import urllib.request, urllib.error, urllib.parse
 import xml.etree.ElementTree as et
 
-class PopGISUtil:
+class PopGISUtil(object):
 
     domain = "popgis.spc.int/GC_tjs.php"
     countries = ["Cooks","Fiji","FSM","Kiribati","Nauru","Niue","Palau","RMI","Solomons","Tonga","Tuvalu","Vanuatu","WF"]
@@ -65,8 +69,8 @@ class PopGISUtil:
     #describeframeworks
     def get_frameworks(self, country):
         res = {}
-        request = urllib2.Request('http://' + country.lower() + '.' + self.domain + '?SERVICE=TJS&REQUEST=DescribeFrameworks&AcceptVersions=1.0.0',headers={'User-Agent': 'Mozilla/5.0'})
-        xml = urllib2.urlopen(request, timeout = 1000).read()
+        request = urllib.request.Request('http://' + country.lower() + '.' + self.domain + '?SERVICE=TJS&REQUEST=DescribeFrameworks&AcceptVersions=1.0.0',headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib.request.urlopen(request, timeout = 1000).read()
         root = et.XML(xml)
         for child in root:
             title = ""
@@ -77,7 +81,7 @@ class PopGISUtil:
                     title = c.text
                 if c.tag.endswith("DescribeDatasetsRequest"):
                     #print c.attrib.values()[0]
-                    url = c.attrib.values()[0]
+                    url = list(c.attrib.values())[0]
             if title is not "" and url is not "":
                 res[title] = url
         self.frameworks = res
@@ -88,8 +92,8 @@ class PopGISUtil:
     def get_datasets(self, framework):
         res = {}
         url = self.frameworks.get(framework)
-        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        xml = urllib2.urlopen(request, timeout = 1000).read()
+        request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib.request.urlopen(request, timeout = 1000).read()
         root = et.XML(xml)
         for child in root:
             for c1 in child:
@@ -101,7 +105,7 @@ class PopGISUtil:
                         title = c.text
                     if c.tag.endswith("DescribeDataRequest"):
                         # print c.attrib.values()[0]
-                        url = c.attrib.values()[0]
+                        url = list(c.attrib.values())[0]
                 if title is not "" and url is not "":
                     res[title] = url
         self.datasets = res
@@ -111,8 +115,8 @@ class PopGISUtil:
     def get_data(self, dataset):
         res = {}
         url = self.datasets.get(dataset)
-        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        xml = urllib2.urlopen(request, timeout = 1000).read()
+        request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib.request.urlopen(request, timeout = 1000).read()
         root = et.XML(xml)
         title = ""
         url = ""
@@ -129,7 +133,7 @@ class PopGISUtil:
                                     title = c.text
                                 if c.tag.endswith("GetDataRequest"):
                                     # print c.attrib.values()[0]
-                                    url = c.attrib.values()[0]
+                                    url = list(c.attrib.values())[0]
                             if title is not "" and url is not "":
                                 res[title] = url
         self.data = res
@@ -140,8 +144,8 @@ class PopGISUtil:
     def get_values(self, data):
         res = {}
         url = self.data.get(data)
-        request = urllib2.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        xml = urllib2.urlopen(request, timeout = 2000).read()
+        request = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        xml = urllib.request.urlopen(request, timeout = 2000).read()
         root = et.XML(xml)
         k = ""
         v = ""
@@ -169,8 +173,14 @@ class PopGISUtil:
 test = False
 if test:
     x = PopGISUtil()
-    print x.get_frameworks("Vanuatu").keys()
-    print x.get_datasets("Province").keys()
-    print x.get_data("P11. Religion of total population").keys()
+    # fix_print_with_import
+    # fix_print_with_import
+    print(list(x.get_frameworks("Vanuatu").keys()))
+    # fix_print_with_import
+    # fix_print_with_import
+    print(list(x.get_datasets("Province").keys()))
+    # fix_print_with_import
+    # fix_print_with_import
+    print(list(x.get_data("P11. Religion of total population").keys()))
     #print x.get_values("H1. Type of living quarters - Proportion of HH living in one family house attached to one or more houses - 2009 Census")
 

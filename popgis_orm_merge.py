@@ -1,7 +1,9 @@
+from __future__ import print_function
 #Author: Sachindra Singh <sachindras@spc.int>
 #Date: 19/08/2017
 #ORM - Object Relational Mapper for OGC Table Joining Service Instances
 
+from builtins import str
 from pony.orm import *
 import sqlite3, os
 
@@ -54,7 +56,8 @@ for d in split_databases:
         cursora = conn.cursor()
         cursora.execute("select name, id from country")
         for ra in cursora:
-            print ra[0] #country
+            # fix_print_with_import
+            print(ra[0]) #country
             c1 = Country(name=ra[0])
             cid = ra[1]
             commit()
@@ -86,7 +89,8 @@ for d in split_databases:
         conn.close()
 
 
-print "DTO Merge Complete."
+# fix_print_with_import
+print("DTO Merge Complete.")
 
 
 
