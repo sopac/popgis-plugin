@@ -277,6 +277,8 @@ class PopGIS(object):
                         crs = QgsCoordinateReferenceSystem(3857, QgsCoordinateReferenceSystem.EpsgCrsId)
                     # self.iface.mapCanvas().mapRenderer().setDestinationCrs(crs)
                     qgis.utils.iface.mapCanvas().mapSettings().destinationCrs = crs
+                    self.iface.mapCanvas().setExtent(layer.extent())
+                    self.iface.mapCanvas().zoomToSelected(layer)
 
                     styling = True
                     if styling:
@@ -312,6 +314,6 @@ class PopGIS(object):
                     # finish
                     self.iface.mapCanvas().setExtent(layer.extent())
                     self.iface.mapCanvas().zoomToSelected(layer)
-                    self.iface.mapCanvas().zoomToSelected(layer)
+
 
                     self.dlg.debug("PopGIS Map Generated.")
