@@ -4,11 +4,17 @@ standard_library.install_aliases()
 from builtins import object
 import urllib.request, urllib.error, urllib.parse
 import xml.etree.ElementTree as et
+import os
+
+from qgis.core import QgsMessageLog
 
 class PopGISUtil(object):
 
     domain = "popgis.spc.int/GC_tjs.php"
     countries = ["Cooks","Fiji","FSM","Kiribati","Nauru","Niue","Palau","RMI","Solomons","Tonga","Tuvalu","Vanuatu","WF"]
+
+    shp_download_root = 'https://raw.githubusercontent.com/sopac/popgis-plugin/master/data/'
+    shp_friends = ['.cpg','.dbf','.prj','.qpj','.shx','.shp']
 
     data_layers = []
     data_layers.append("solomons/constituency/cid_3857.shp")
@@ -167,6 +173,48 @@ class PopGISUtil(object):
 
         self.values = res
         return res
+
+
+    def download_all_shapefiles(self, layer):
+        for layer in self.data_layers:
+            self.download_shapefile(layer)
+
+    def download_shapefile(self, layer, force=False):
+        """
+        This downloads shapefile&friends from the github repository if it doesn't exist already.
+        """
+        path = os.path.dirname(os.path.abspath(__file__)) + "/data/" + layer
+
+        if not os.path.exists(path) or force:
+            QgsMessageLog.logMessage("{} does not exist or redownload forced.".format(layer),"PopGIS")
+
+            # TODO : progress bar or other UI feedback (some files may be relatively big)
+
+            try:
+                for ext in self.shp_friends:
+                    download_url = self.shp_download_root + os.path.splitext(layer)[0] + ext
+                    save_url = os.path.splitext(path)[0] + ext
+
+                    QgsMessageLog.logMessage("Downloading {}...".format(download_url),"PopGIS")
+
+                    os.makedirs( os.path.dirname(save_url), exist_ok=True )
+                    urllib.request.urlretrieve(download_url, save_url)
+
+                    QgsMessageLog.logMessage("Saved to {}".format(save_url),"PopGIS")
+            except urllib.error.URLError as e:
+                QgsMessageLog.logMessage("Download of {} failed. Removing data.".format(download_url),"PopGIS")
+
+                # We delete all files to avoid leaving corrupted data
+                for ext in self.shp_friends:
+                    save_url = os.path.splitext(path)[0] + ext
+
+                # We still raise the exception
+                raise e
+
+        else:
+            QgsMessageLog.logMessage("{} already exists. Using cached version.".format(layer),"PopGIS")
+
+        return path
 
 
 #test
