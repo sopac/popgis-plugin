@@ -34,10 +34,13 @@ from qgis.core import *
 import qgis.utils
 from decimal import Decimal
 
+import urllib
+
 # Initialize Qt resources from file resources.py
 from . import resources
 # Import the code for the dialog
 from .popgis_dialog import PopGISDialog
+from . import popgis_util
 import os.path
 
 
@@ -181,6 +184,13 @@ class PopGIS(object):
             callback=self.run,
             parent=self.iface.mainWindow())
 
+        self.add_action(
+            icon_path,
+            text=self.tr(u'Download all geometries'),
+            add_to_toolbar=False,
+            callback=self.download_all,
+            parent=self.iface.mainWindow())
+
     def unload(self):
         """Removes the plugin menu item and icon from QGIS GUI."""
         for action in self.actions:
@@ -228,7 +238,8 @@ class PopGIS(object):
 
             for dl in self.dlg.popgis.data_layers:
                 if dl.startswith(country.lower() + "/" + f.lower().replace(" ", "_")):
-                    path = os.path.dirname(os.path.abspath(__file__)) + "/data/" + dl
+                    path = popgis_util.PopGISUtil().download_shapefile(dl, force=self.dlg.checkForceRedownload.isChecked())
+
                     # self.dlg.debug(path)
                     layer = self.iface.addVectorLayer(path, country + "_" + framework.replace(" ", "_"), "ogr")
 
@@ -317,3 +328,9 @@ class PopGIS(object):
 
 
                     self.dlg.debug("PopGIS Map Generated.")
+
+    def download_all_shapefiles(self):
+        # TODO : do this as a background task
+        QgsMessageLog.logMessage("Downloading all shapefiles","PopGIS")
+        popgis_util.PopGISUtil().download_all_shapefiles()
+        QgsMessageLog.logMessage("Done !","PopGIS")
