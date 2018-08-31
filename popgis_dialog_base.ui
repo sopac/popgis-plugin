@@ -164,22 +164,7 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-  <widget class="QCheckBox" name="checkOffline">
-   <property name="geometry">
-    <rect>
-     <x>220</x>
-     <y>351</y>
-     <width>161</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Offline Mode</string>
-   </property>
-   <property name="checked">
-    <bool>true</bool>
-   </property>
-  </widget>
+
   <widget class="QCheckBox" name="checkForceRedownload">
    <property name="geometry">
     <rect>
@@ -196,7 +181,7 @@
     <string>Force redownload framework</string>
    </property>
   </widget>
- </widget>
+
  <connections>
   <connection>
    <sender>buttons</sender>
