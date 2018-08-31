@@ -123,7 +123,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>© 2017 Geoinformatics Section, Geoscience Division, Pacific Community (SPC)</string>
+    <string>© 2018 Geoscience, Energy and Maritime Division, Pacific Community (SPC)</string>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>
@@ -164,13 +164,12 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
-
   <widget class="QCheckBox" name="checkForceRedownload">
    <property name="geometry">
     <rect>
      <x>340</x>
      <y>360</y>
-     <width>131</width>
+     <width>271</width>
      <height>17</height>
     </rect>
    </property>
@@ -181,7 +180,10 @@
     <string>Force redownload framework</string>
    </property>
   </widget>
-
+ </widget>
+ <resources>
+  
+ </resources>
  <connections>
   <connection>
    <sender>buttons</sender>

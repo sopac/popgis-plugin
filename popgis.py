@@ -188,7 +188,7 @@ class PopGIS(object):
             icon_path,
             text=self.tr(u'Download all geometries'),
             add_to_toolbar=False,
-            callback=self.download_all,
+            callback=self.download_all_shapefiles,
             parent=self.iface.mainWindow())
 
     def unload(self):
@@ -331,6 +331,6 @@ class PopGIS(object):
 
     def download_all_shapefiles(self):
         # TODO : do this as a background task
-        QgsMessageLog.logMessage("Downloading all shapefiles","PopGIS")
+        QgsMessageLog.logMessage("Downloading Data Files...","PopGIS")
         popgis_util.PopGISUtil().download_all_shapefiles()
-        QgsMessageLog.logMessage("Done !","PopGIS")
+        QgsMessageLog.logMessage("Download Complete!","PopGIS")
