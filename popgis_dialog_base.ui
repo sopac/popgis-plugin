@@ -164,7 +164,24 @@
     <set>Qt::AlignCenter</set>
    </property>
   </widget>
- </widget>
+
+  <widget class="QCheckBox" name="checkForceRedownload">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>360</y>
+     <width>131</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>Check this to force redownloading the framework shapefiles, even if it has been downloaded already. Useful if a previous download failed and produced some corrupt data, or if the layers have been tampered with.</string>
+   </property>
+   <property name="text">
+    <string>Force redownload framework</string>
+   </property>
+  </widget>
+
  <connections>
   <connection>
    <sender>buttons</sender>
