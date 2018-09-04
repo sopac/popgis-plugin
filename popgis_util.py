@@ -17,7 +17,7 @@ class PopGISUtil(object):
 
     shp_download_root = 'https://raw.githubusercontent.com/sopac/popgis-plugin/master/data/'
     shp_required_friends = ['.dbf','.shx','.shp']
-    shp_friends = ['.cpg','.qpj','.shx']
+    shp_friends = ['.cpg','.qpj','.shx','.prj']
 
     data_layers = []
     data_layers.append("solomons/constituency/cid_3857.shp")
