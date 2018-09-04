@@ -10,7 +10,7 @@
 name=SPC PopGIS
 qgisMinimumVersion=3.0
 description=QGIS Plugin Integration with SPC PopGIS
-version=0.2
+version=0.6
 author=Sachindra Singh
 email=sachindras@spc.int
 

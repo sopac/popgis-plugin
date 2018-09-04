@@ -6,6 +6,8 @@ import urllib.request, urllib.error, urllib.parse
 import xml.etree.ElementTree as et
 import os
 
+from PyQt5.QtWidgets import QApplication, QProgressDialog
+
 from qgis.core import QgsMessageLog
 
 class PopGISUtil(object):
@@ -14,7 +16,8 @@ class PopGISUtil(object):
     countries = ["Cooks","Fiji","FSM","Kiribati","Nauru","Niue","Palau","RMI","Solomons","Tonga","Tuvalu","Vanuatu","WF"]
 
     shp_download_root = 'https://raw.githubusercontent.com/sopac/popgis-plugin/master/data/'
-    shp_friends = ['.cpg','.dbf','.prj','.qpj','.shx','.shp']
+    shp_required_friends = ['.dbf','.shx','.shp']
+    shp_friends = ['.cpg','.qpj','.shx']
 
     data_layers = []
     data_layers.append("solomons/constituency/cid_3857.shp")
@@ -175,11 +178,13 @@ class PopGISUtil(object):
         return res
 
 
-    def download_all_shapefiles(self, layer):
+    def download_all_shapefiles(self):        
+        progress_bar = QProgressDialog()
         for layer in self.data_layers:
-            self.download_shapefile(layer)
+            self.download_shapefile(layer, force=False, progress_bar=progress_bar)
+        progress_bar.close()
 
-    def download_shapefile(self, layer, force=False):
+    def download_shapefile(self, layer, force=False, progress_bar=None):
         """
         This downloads shapefile&friends from the github repository if it doesn't exist already.
         """
@@ -188,21 +193,41 @@ class PopGISUtil(object):
         if not os.path.exists(path) or force:
             QgsMessageLog.logMessage("{} does not exist or redownload forced.".format(layer),"PopGIS")
 
-            # TODO : progress bar or other UI feedback (some files may be relatively big)
+            if progress_bar is None:
+                close_progress_bar = True
+                progress_bar = QProgressDialog()
+            else:
+                close_progress_bar = False
+            progress_bar.setAutoClose(False)
+            progress_bar.show()
+
+            def show_progress_callback(block_num, block_size, total_size):
+                progress_bar.setMaximum(total_size)
+                progress_bar.setValue(block_num*block_size)
+                QApplication.processEvents()
 
             try:
-                for ext in self.shp_friends:
-                    download_url = self.shp_download_root + os.path.splitext(layer)[0] + ext
+                for ext in self.shp_required_friends + self.shp_friends:
+
+                    file_name = os.path.splitext(layer)[0] + ext
+                    download_url = self.shp_download_root + urllib.parse.quote(file_name)
                     save_url = os.path.splitext(path)[0] + ext
+
+                    progress_bar.setLabelText("Downloading {}".format(file_name))
 
                     QgsMessageLog.logMessage("Downloading {}...".format(download_url),"PopGIS")
 
                     os.makedirs( os.path.dirname(save_url), exist_ok=True )
-                    urllib.request.urlretrieve(download_url, save_url)
+                    try:
+                        urllib.request.urlretrieve(download_url, save_url, show_progress_callback)
+                        QgsMessageLog.logMessage("Saved to {}".format(save_url),"PopGIS")
+                    except urllib.error.HTTPError as e:
+                        # We throw the exception only if the file is required.
+                        if ext in self.shp_required_friends:
+                            raise e
 
-                    QgsMessageLog.logMessage("Saved to {}".format(save_url),"PopGIS")
-            except urllib.error.URLError as e:
-                QgsMessageLog.logMessage("Download of {} failed. Removing data.".format(download_url),"PopGIS")
+            except Exception as e:
+                QgsMessageLog.logMessage("Download of {} failed. Removing data.".format(layer),"PopGIS")
 
                 # We delete all files to avoid leaving corrupted data
                 for ext in self.shp_friends:
@@ -210,6 +235,9 @@ class PopGISUtil(object):
 
                 # We still raise the exception
                 raise e
+
+            if close_progress_bar:
+                progress_bar.close()
 
         else:
             QgsMessageLog.logMessage("{} already exists. Using cached version.".format(layer),"PopGIS")
