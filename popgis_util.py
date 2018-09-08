@@ -11,7 +11,7 @@ from qgis.core import QgsMessageLog
 class PopGISUtil(object):
 
     domain = "popgis.spc.int/GC_tjs.php"
-    countries = ["Cooks","Fiji","FSM","Kiribati","Nauru","Niue","Palau","RMI","Solomons","Tonga","Tuvalu","Vanuatu","WF"]
+    countries = ["Cooks","Fiji","FSM","Kiribati","Nauru","Niue","Palau","RMI", "Samoa","Solomons","Tonga","Tuvalu","Vanuatu","WF"]
 
     shp_download_root = 'https://raw.githubusercontent.com/sopac/popgis-plugin/master/data/'
     shp_friends = ['.cpg','.dbf','.prj','.qpj','.shx','.shp']
